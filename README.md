@@ -3,9 +3,8 @@ Takes the OU of a computer lab and adds sub-OUs and links existing GPOs to refac
 Full documentation is at https://wiki.illinois.edu/wiki/display/engritprivate/EWS+remote+access+to+Windows+labs  
 
 # Usage
-1. Download `Covidize-LabOU.psm1`
-2. Import the script as a module: `Import-Module "c:\path\to\Covidize-LabOU.psm1"`
-3. Run it: e.g. `Covidize-LabOU "OU=ECEB9999,OU=EWS,OU=Instructional,OU=Desktops,OU=Engineering,OU=Urbana,DC=ad,DC=uillinois,DC=edu"`
+1. Download `Covidize-LabOU.psm1` to `$HOME\Documents\WindowsPowerShell\Modules\Covidize-LabOU\Covidize-LabOU.psm1`.
+2. Run it: e.g. `Covidize-LabOU "OU=ECEB9999,OU=EWS,OU=Instructional,OU=Desktops,OU=Engineering,OU=Urbana,DC=ad,DC=uillinois,DC=edu"`
 
 # Parameters
 
