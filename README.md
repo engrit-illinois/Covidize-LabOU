@@ -1,3 +1,6 @@
+# DEPRECATED
+This script is deprecated. Please use the following replacement instead: https://github.com/engrit-illinois/LabCheckProvision-LabOu.
+
 # Summary
 Takes the OU of a computer lab and adds sub-OUs and links existing GPOs to refactor for standardized remote desktop access, and COVID social distancing protocols.  
 Full documentation is at https://wiki.illinois.edu/wiki/display/engritprivate/EWS+remote+access+to+Windows+labs  
