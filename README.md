@@ -6,10 +6,9 @@ Takes the OU of a computer lab and adds sub-OUs and links existing GPOs to refac
 Full documentation is at https://wiki.illinois.edu/wiki/display/engritprivate/EWS+remote+access+to+Windows+labs  
 
 # Usage
-1. Download `Covidize-LabOU.psm1` to `$HOME\Documents\WindowsPowerShell\Modules\Covidize-LabOU\Covidize-LabOU.psm1`.
-    - The module is now already available for use with your regular account, however it needs to modify AD objects which likely only your SU account will have access to.
-2. Make the module available as your SU account: see [here](https://github.com/engrit-illinois/how-to-run-custom-powershell-modules-as-another-user).
-3. Run it: e.g. `Covidize-LabOU "OU=ECEB9999,OU=EWS,OU=Instructional,OU=Desktops,OU=Engineering,OU=Urbana,DC=ad,DC=uillinois,DC=edu"`
+1. Download `Covidize-LabOU.psm1` to the appropriate subdirectory of your PowerShell [modules directory](https://github.com/engrit-illinois/how-to-install-a-custom-powershell-module).
+    - The module is now already available for use with your regular account, however it needs to modify AD objects which you may only have access to do with your SU account. Make the module available as your SU account: see [here](https://github.com/engrit-illinois/how-to-run-custom-powershell-modules-as-another-user).
+2. Run it: e.g. `Covidize-LabOU "OU=ECEB9999,OU=EWS,OU=Instructional,OU=Desktops,OU=Engineering,OU=Urbana,DC=ad,DC=uillinois,DC=edu"`
 
 # Parameters
 
